@@ -1,9 +1,29 @@
-<!DOCTYPE html> <
+<!DOCTYPE html>
 <html>
   <head>
     <title>To Do List</title>
   </head>
   <body>
-    <p></p>
+    <form action="#list" method="GET">
+      <div id="title-plate">
+        <h1>To Do List</h1>
+      </div>
+      <div>
+        <label for="list-item"> New Item </label>
+        <input
+          type="text"
+          name="list-item"
+          id="list-item"
+          placeholder="dishes"
+        />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <div>
+      <h1>List:</h1>
+    </div>
+    <div>
+      <ul></ul>
+    </div>
   </body>
 </html>
